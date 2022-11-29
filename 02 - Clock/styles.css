@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    width: 360px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: .5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

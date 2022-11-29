@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+}
+.container {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    border-radius: 1em;
+    margin: 10em;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn {
+    border: none;
+    padding: 1em 3em;
+    margin: 1em;
+    background-color: aliceblue;
+    border-radius: .5em;
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: bisque;
+    opacity: 0.5;
+}
